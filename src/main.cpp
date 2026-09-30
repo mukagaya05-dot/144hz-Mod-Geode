@@ -434,7 +434,7 @@ namespace {
             exactModeEnabled
         );
         
-        const bool surfaceUpdated = false
+        const bool surfaceUpdated = false;
         
         result.requested = windowUpdated || surfaceUpdated;
 
