@@ -433,12 +433,9 @@ namespace {
             result.exactModeId,
             exactModeEnabled
         );
-        const bool surfaceUpdated = setSurfaceFrameRate(
-            env,
-            view,
-            result.requestedHz
-        );
-
+        
+        const bool surfaceUpdated = false
+        
         result.requested = windowUpdated || surfaceUpdated;
 
         log::info(
