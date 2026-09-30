@@ -14,8 +14,8 @@
       "name": "Frecuencia objetivo",
       "description": "Frecuencia que se solicitará a Android. El sistema puede ignorarla.",
       "default": 144,
-      "min": 60,
-      "max": 240,
+      "min": 120,
+      "max": 360,
       "control": {
         "slider": true,
         "slider-step": 1,
